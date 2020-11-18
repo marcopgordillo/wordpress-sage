@@ -47,6 +47,8 @@ However, the amount of effort needed to maintain and develop new features and pr
 
 ## Overview
 
+[Sage Theme](marcopgordillo/sage-theme)
+
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
 Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](http://12factor.net/) methodology including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
