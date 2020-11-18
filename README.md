@@ -47,7 +47,7 @@ However, the amount of effort needed to maintain and develop new features and pr
 
 ## Overview
 
-[Sage Theme](@marcopgordillo/sage-theme)
+[Sage Theme](https://github.com/marcopgordillo/sage-theme)
 
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
