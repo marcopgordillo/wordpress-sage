@@ -87,6 +87,7 @@ Config::define('AUTH_SALT', env('AUTH_SALT'));
 Config::define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
 Config::define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 Config::define('NONCE_SALT', env('NONCE_SALT'));
+Config::define('JWT_AUTH_SECRET_KEY', env('JWT_AUTH_SECRET_KEY'));
 
 /**
  * Custom Settings
@@ -97,6 +98,8 @@ Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 Config::define('DISALLOW_FILE_EDIT', true);
 // Disable plugin and theme updates and installation from the admin
 Config::define('DISALLOW_FILE_MODS', true);
+// Enable cors
+Config::define('JWT_AUTH_CORS_ENABLE', true);
 
 /**
  * Debugging Settings
